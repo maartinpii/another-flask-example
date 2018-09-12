@@ -40,4 +40,4 @@ def create_customer():
     return redirect(url_for('list_customers'))
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host = '0.0.0.0',port=5000)
